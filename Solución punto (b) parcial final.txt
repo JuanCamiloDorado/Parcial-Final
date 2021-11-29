@@ -1,0 +1,13 @@
+B)
+
+1) ¿Qué tipo de errores se presentaron o se pueden presentar con su implementación al problema?
+
+Algunos de los errores que se presentaron al principio fueron: en primer lugar, tuvimos el error de que a la hora de imprimir el número del código del producto el cual comenzaba con 0 al imprimirlo le quitaba ese 0, ya que el input tomaba ese dato como un entero. Otro error que se presentó es que a la hora de tomar los datos en un mismo input esos datos entraban en un formato de string, por lo cual no se podía hacer operaciones matemáticas para llegar al precio final y hacer el descuento.
+Algunos errores que se podrían presentar son: primero podría ser que el usuario no introduzca ningún dato o que escriba de manera incorrecta ese dato e incluso de una manera desordenada. Además, tambien se podría presentar de que el usuario introduzca los datos sin espacios por lo que va a tomar los datos como si fuera uno solo, y por último tambien podría presentarse de que el usuario no sea estudiante ni profesor por lo que no podría ingresar los datos.
+
+
+2) ¿Qué estrategias podrían usar para solucionar estos errores?
+
+Lo que implementamos en el primer error fue primero identificar el error y pensar la posible solución lo cual fue de manera fácil, ya que únicamente debíamos hacer que el input del código del producto lo leyera como un string y no como un entero, por otro lado, en el segundo error que se nos presentó fue de manera contraria, ya que para hacer una operación matemática necesitábamos que se leyeran esos datos como enteros y no como un string por lo cual la manera de arreglarlo era pasar esos datos de la cantidad y el precio del producto a enteros. Por último en los posibles errores que el usuario podría cometer a la hora de introducir los datos, la manera de solucionarlos es poner más condicionales los cuales identifiquen ese tipo de errores y le haga una advertencia al usuario de que está cometiendo un error y que vuelva a ingresar esos datos, pero ya de una manera correcta para que el programa le muestre de manera correcta los datos finales. 
+
+
